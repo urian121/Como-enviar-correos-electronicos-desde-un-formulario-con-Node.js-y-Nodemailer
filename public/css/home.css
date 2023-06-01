@@ -3,6 +3,16 @@
 
 body {
   margin: 0;
-  background-color: #f5f5f5;
+  background-color: #f8f8f8;
   font-family: "Ubuntu", sans-serif;
+}
+.cardForm {
+  box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.07),
+    0 10px 20px -2px rgba(0, 0, 0, 0.04) !important;
+  border-radius: 0.5rem !important;
+  background: #fff;
+  padding: 30px;
+}
+label {
+  float: left;
 }

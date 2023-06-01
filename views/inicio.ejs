@@ -4,10 +4,10 @@
     <%- include('includes/head') %>
   </head>
   <body>
-    <main class="content-wrapper mt-5" style="margin-top: 80px !important">
+    <main class="content-wrapper mt-5">
       <div class="container" style="width: 95% !important">
         <div class="row justify-content-md-center mb-5">
-          <div class="col-md-12 mt-5">
+          <div class="col-md-12">
             <h2 class="text-center">
               Cómo enviar correos electrónicos desde un formulario con Node.js y
               Nodemailer
@@ -15,11 +15,44 @@
             </h2>
           </div>
 
-          <img
-            class="img-fluid"
-            style="max-width: 550px"
-            src="public/imgs/nodejs.png"
-            alt="WeB Developer - urian V" />
+          <div class="col-md-6 text-center cardForm">
+            <!--Usando el atributo enctype="multipart/form-data" para permitir que el formulario pueda enviar archivo-->
+            <form
+              action="/procesar-email"
+              method="POST"
+              enctype="multipart/form-data">
+              <div class="form-group mb-3">
+                <label for="desde">Desde:</label>
+                <input type="email" name="desde" class="form-control" />
+              </div>
+              <div class="form-group mb-3">
+                <label for="para">Para:</label>
+                <input type="email" name="para" class="form-control" />
+              </div>
+              <div class="form-group mb-3">
+                <label for="titulo">Titulo</label>
+                <input type="text" name="titulo" class="form-control" />
+              </div>
+              <div class="form-group mb-3">
+                <label for="mensaje"> Mensaje </label>
+                <textarea
+                  name="mensaje"
+                  class="form-control"
+                  rows="3"></textarea>
+              </div>
+              <div class="form-group mb-4">
+                <label for="fileAdjunto">Adjuntar Archivo</label>
+                <input
+                  type="file"
+                  name="fileAdjunto"
+                  class="form-control-file" />
+              </div>
+              <hr />
+              <button type="submit" class="btn btn-info btn-lg btn-block">
+                Enviar formulario
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </main>

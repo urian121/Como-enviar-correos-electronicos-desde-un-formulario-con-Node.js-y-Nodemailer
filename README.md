@@ -1,6 +1,6 @@
-## Enviar datos de un formulario HTML a una base de datos MySQL con Node.js 😲
+#### Descubre cómo enviar correos electrónicos de forma sencilla y eficiente desde un formulario utilizando Node.js y Nodemailer. Aprende a integrar estas poderosas herramientas en tu proyecto y aprovecha al máximo la comunicación por correo electrónico. Domina el arte de enviar mensajes personalizados y automatizados con facilidad
 
-###### Este proyecto trata de como poder enviar un formualrio HTML al gestor de BD MySQL usando express como servidor y ejs como motor de plantilla para express.
+😲
 
 #### Paso para inicial el proyecto en NodeJS
 
@@ -8,12 +8,11 @@
 `npm install express --save`
 `npm i ejs`
 `npm install nodemailer`
+`npm install multer`
 
 ## Para correr proyecto existente;
 
 `npm i`
 `node --watch server.js`
-
-###### Nota: El proyecto ya cuenta con una Tabla la cual solo debe importar en cualquier BD y solo cambiar la configuracion de conexión a la misma.
 
 ![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/portada-enviar-formulario-con-nodejs.png)
