@@ -1,0 +1,18 @@
+{
+  "name": "como-enviar-correos-electronicos-desde-un-formulario-con-node.js-y-nodemailer",
+  "version": "1.0.0",
+  "description": "###### Este proyecto trata de como poder enviar un formualrio HTML al gestor de BD MySQL usando express como servidor y ejs como motor de plantilla para express.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.3"
+  }
+}
