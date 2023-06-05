@@ -1,7 +1,7 @@
 #### Descubre cómo enviar correos electrónicos de forma sencilla y eficiente desde un formulario utilizando Node.js y Nodemailer. Aprende a integrar estas poderosas herramientas en tu proyecto y aprovecha al máximo la comunicación por correo electrónico. Domina el arte de enviar mensajes personalizados y automatizados con facilidad
 
 😲
-
+#### Multer es un middleware para Express y Node. js que hace que sea fácil manipular este multipart/form-data cuando tus usuarios suben archivos.
 #### Paso para inicial el proyecto en NodeJS
 
 `npm init -y`
