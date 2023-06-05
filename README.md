@@ -15,4 +15,4 @@
 `npm i`
 `node --watch server.js`
 
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/portada-enviar-formulario-con-nodejs.png)
+![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/enviar-correos-electronicos-desde-un-formulario-con-Nodejs-y-Nodemailer-Urian-viera.PNG)
